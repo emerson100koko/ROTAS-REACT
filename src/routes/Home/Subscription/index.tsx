@@ -4,7 +4,7 @@ import Button from "../../../components/Button";
 import Card from "../../../components/Card";
 
 
-export default function Promotion() {
+export default function Subscrition() {
 
 
     return (
@@ -12,14 +12,15 @@ export default function Promotion() {
             <section>
                 <div className="container">
                     <div className="mt30 mb30">
-                        <Card title="pagina de promoção" />
+                        <Card title="pagina de Inscrição" />
                     </div> 
                     
                         <div className="dflex">
-                            <Link to="/sub">
-                                <Button text="Quero participar" />
+                            <Link to="/promotion">
+                                <Button text="Ver promoção" />
                             </Link>
-                        </div>   
+                        </div>
+                    
                 </div>
             </section>
         </main>
