@@ -1,9 +1,15 @@
+import Card from "../../../components/Card";
+
 export default function Promotion(){
 
 
     return (
         <main>
-            <h2>Pagina de Promoção</h2>
+            <section>
+                <div className="container mt30 mb30">
+                    <Card title="Pagina Inicial" />
+                </div>
+            </section>
         </main>
     );
 }

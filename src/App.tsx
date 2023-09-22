@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
-import HomeBody from "./routes/Home/HomeBody";
+import HomeBody from "./routes/Home/HomeBody/HomeBody";
 import Promotion from "./routes/Home/Promotion";
 
 function App() {
